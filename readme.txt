@@ -1,0 +1,84 @@
+=== wordpress publish post email notification ===
+Contributors: Nikunj Gandhi
+Tags:wordpress publish post,send email when post is publish,send email publish post wordpress,wordpress publish post email,notify author when post published
+Donate link: http://www.my-php-scripts.net/donate_for_publish_post_notification_email_sender.php
+Requires at least:3.0
+Tested up to:3.4.1
+Version:1.0
+Stable tag:trunk
+License:GPLv2 or later
+License URI:http://www.gnu.org/licenses/gpl-2.0.html
+
+== Description ==
+Publish post notification is plugin which will send automatic email when the post is published and approved by WordPress blog.
+admin have to go to setting and set email template thats it all other things are  managed by this plugin.
+
+**Find wordpress publish post email notification Pro Plugin at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-publish-post-email-notification-pro.html)**
+
+=Features=
+
+1. set email template.
+
+2. Notify author via email when post is published.
+
+
+=Pro Version Features=
+
+1.Full wysiwyg editor available for typing email.
+
+2.No Advertisements.
+
+
+[Get Support](http://my-php-scripts.net/) 
+
+
+== Installation ==
+
+
+This plugin is easy to install like other plug-ins of Wordpress as you need to just follow the below mentioned steps:
+
+1. upload publish-post-notification folder to wp-Content/plugins folder.
+
+2. Activate the plugin from Dashboard / Plugins window.
+
+4. Now Plugin is Activated, Go to the Usage section to see how to use Vertical News Scroller.
+
+### Usage ###
+
+1.Use of publish post notification is easy after activating plugin go to Settings menu.
+
+2.Select Publish post email template sub menu.
+
+3.Fill out email template you can use place holders in email content.
+
+4.Thats it your email is set now whenever a post is publish the author is notified via email.
+
+
+== Screenshots ==
+
+1. Email template settings
+2. Pro version with full html editor
+
+== License ==
+
+This plugin is free for everyone! Since it's released under the GPL, you can use it free of charge on your personal or commercial blog. But you can make some donations if you realy find it useful.
+
+== Changelog ==
+
+= 1.0 =
+
+* Stable 1.0 first release
+
+
+== Upgrade Notice ==
+
+= 1.0 =
+
+* Stable 1.0 first release
+
+ 
+== Frequently Asked Questions ==
+
+1.How to use ?
+
+For More info use readme installation and usage notes.
