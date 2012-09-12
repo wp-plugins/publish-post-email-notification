@@ -128,6 +128,8 @@
 </td>
 </tr>
 </table>
+<span><h3 style="color: blue;"><a target="_blank" href="http://www.my-php-scripts.net/index.php/Wordpress/wordpress-publish-post-email-notification-pro.html">Update to Publish Post Email Notification Pro</a></h3></span>
+<br/>
 <h3>Post notification email template settings</h3>  
    <?php  $url = plugin_dir_url(__FILE__);
        $urlJS=$url."js/jqueryValidate.js";
