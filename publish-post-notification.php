@@ -201,9 +201,9 @@
      </div>
      <div id="poststuff" class="metabox-holder has-right-sidebar" style="float:right;width:30%;"> 
              <div class="postbox"> 
-              <h3 class="hndle"><span></span>Recommended WordPress Hosting</h3> 
+              <h3 class="hndle"><span></span>Recommended WordPress SEO Tools</h3> 
               <div class="inside">
-                   <center><a href="http://www.justhost.com/track/jh50601/CODE4" target="_top"><img border="0" src="http://img.justhost.com/300x250/jh_300x250_us_01.gif" /></a></center>
+                   <center><a href="http://www.semrush.com/sem.html?ref=961672083"> <img width="300" height="230" src="http://www.berush.com/images/240x240_semrush_en.png" /></a></center>
 
                   <div style="margin:10px 5px">
           
