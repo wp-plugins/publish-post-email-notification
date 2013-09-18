@@ -3,7 +3,7 @@ Contributors:nik00726
 Tags:wordpress publish post,send email when post is publish,send email publish post wordpress,wordpress publish post email,notify author when post published
 Donate link: http://www.my-php-scripts.net/donate_for_publish_post_notification_email_sender.php
 Requires at least:3.0
-Tested up to:3.5
+Tested up to:3.6.1
 Version:1.0
 Stable tag:trunk
 License:GPLv2 or later
