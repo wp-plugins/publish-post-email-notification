@@ -21,6 +21,8 @@ admin have to go to setting and set email template thats it all other things are
 
 2. Notify author via email when post is published.
 
+3.Support for send email to author when custome post type publish
+
 
 =Pro Version Features=
 
