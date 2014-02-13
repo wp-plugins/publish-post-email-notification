@@ -1,9 +1,9 @@
 === wordpress publish post email notification ===
 Contributors:nik00726
 Tags:wordpress publish post,send email when post is publish,send email publish post wordpress,wordpress publish post email,notify author when post published
-Donate link: http://www.my-php-scripts.net/donate_for_publish_post_notification_email_sender.php
+Donate link: http://www.i13websolution.com/donate_for_publish_post_notification_email_sender.php
 Requires at least:3.0
-Tested up to:3.7
+Tested up to:3.8.1
 Version:1.0
 Stable tag:trunk
 License:GPLv2 or later
@@ -13,7 +13,7 @@ License URI:http://www.gnu.org/licenses/gpl-2.0.html
 Publish post notification is plugin which will send automatic email when the post is published and approved by WordPress blog.
 admin have to go to setting and set email template thats it all other things are  managed by this plugin.
 
-**Find wordpress publish post email notification Pro Plugin at [Advanced PHP Scripts](http://www.my-php-scripts.net/index.php/Wordpress/wordpress-publish-post-email-notification-pro.html)**
+**Find wordpress publish post email notification Pro Plugin at [Publish Post Email Notification Pro](http://www.i13websolution.com/wordpress-pro-plugins/wordpress-publish-post-email-notification-pro-plugin.html)**
 
 =Features=
 
@@ -32,7 +32,7 @@ admin have to go to setting and set email template thats it all other things are
 3.No Advertisements.
 
 
-[Get Support](http://my-php-scripts.net/) 
+[Get Support](http://www.i13websolution.com/contacts) 
 
 
 == Installation ==
