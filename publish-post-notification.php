@@ -138,7 +138,7 @@
     
      <link rel='stylesheet' href='<?php echo $urlCss; ?>' type='text/css' media='all' />
  <div style="width: 100%;">  
-     <div style="float:left;width:69%;" >
+     <div style="float:left;" >
       
         <form name="publishpostfrm" id='publishpostfrm' method="post" action=""> 
         <table class="form-table" style="" >
@@ -193,34 +193,43 @@
                
                <input type='submit'  value='Save Settings' name='savesettings' class='button-primary' id='savesettings' >  
               </td>
+           </tr> 
+           <tr valign="top" id="subject">
+             <th scope="row" style="width:30%"></th>
+             <td> 
+                 <div id="postbox-container-1" class="postbox-container"> 
+            
+            <div class="postbox"> 
+              <h3 class="hndle"><span></span>Access All Themes One price</h3> 
+              <div class="inside">
+                   <center><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=11715_0_1_10" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/300x250.gif" width="250" height="250"></a></center>
+
+                  <div style="margin:10px 5px">
+          
+                  </div>
+          </div></div>
+
+            <div class="postbox"> 
+                <h3 class="hndle"><span></span>Find Low Competition Keywords</h3> 
+                <div class="inside">
+                    <center><a href="http://42eb4jw9flkrluf45q50poct4o.hop.clickbank.net/?tid=FP76479Y" target="_top"><img src="http://nichefinder.bradcallen.com/affiliates/banners/320x250.jpg" width="250" height="250" border="1" ALT="Click to Visit"></a></center>
+
+                    <div style="margin:10px 5px">
+
+                    </div>
+                </div></div>
+
+
+        </div> 
+
+           
+              </td>
            </tr>
            
         </table>
         </form>
      </div>
-     <div id="poststuff" class="metabox-holder has-right-sidebar" style="float:right;width:30%;"> 
-             <div class="postbox"> 
-              <h3 class="hndle"><span></span>Recommended WordPress SEO Tools</h3> 
-              <div class="inside">
-                   <center><a href="http://www.semrush.com/sem.html?ref=961672083"> <img width="300" height="230" src="http://www.berush.com/images/240x240_semrush_en.png" /></a></center>
-
-                  <div style="margin:10px 5px">
-          
-                  </div>
-          </div></div>
-           
-           <div class="postbox"> 
-              <h3 class="hndle"><span></span>Recommended WordPress Themes</h3> 
-              <div class="inside">
-                   <center><a href="http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=11715_0_1_10" target="_blank"><img border="0" src="http://www.elegantthemes.com/affiliates/banners/300x250.gif" width="300" height="250"></a></center>
-
-                  <div style="margin:10px 5px">
-          
-                  </div>
-          </div></div>
-           
-           
-           </div>   
+        
  </div>   
 
     <script type="text/javascript">
