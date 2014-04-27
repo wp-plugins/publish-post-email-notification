@@ -9,15 +9,21 @@
 */  
 
   add_action('admin_menu', 'load_submenu');
-   
+  add_action( 'admin_init', 'publish_post_notification_plugin_admin_init' );
   add_action('publish_post',    'send_email_notification');  
-  wp_enqueue_script('jquery');  
-
   function load_submenu(){
   
         add_submenu_page( 'options-general.php', 'Publish post notification options', 'Publish post email template', 'manage_options', 'manage_publish_post_notification_options', 'manage_publish_post_notification_options_func' ); 
   }
   
+  
+  function publish_post_notification_plugin_admin_init(){
+    
+        $url = plugin_dir_url(__FILE__);  
+        wp_enqueue_script('jquery'); 
+        wp_enqueue_script( 'jqueryValidate', $url.'js/jqueryValidate.js' );  
+  
+  }
   
   function send_email_notification($post_ID){
       
@@ -131,12 +137,10 @@
 <br/>
 <h3>Post notification email template settings</h3>  
    <?php  $url = plugin_dir_url(__FILE__);
-       $urlJS=$url."js/jqueryValidate.js";
+      
        $urlCss=$url."styles.css";
  ?>
-     <script src="<?php echo $urlJS; ?>"></script>
-    
-     <link rel='stylesheet' href='<?php echo $urlCss; ?>' type='text/css' media='all' />
+ <link rel='stylesheet' href='<?php echo $urlCss; ?>' type='text/css' media='all' />
  <div style="width: 100%;">  
      <div style="float:left;" >
       
