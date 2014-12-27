@@ -1,19 +1,20 @@
 <?php
  /* 
     Plugin Name: Send email notification to author when post is published
-    Plugin URI:http://www.i13websolution.com
+    Plugin URI:http://www.i13websolution.com/wordpress-publish-post-email-notification-pro-plugin.html
     Description: Send email notification to author when post is published
     Author:I Thirteen Web Solution
     Version:1.0
-    Author URI:http://www.i13websolution.com
+    Author URI:http://www.i13websolution.com/wordpress-publish-post-email-notification-pro-plugin.html
 */  
 
   add_action('admin_menu', 'load_submenu');
-  add_action( 'admin_init', 'publish_post_notification_plugin_admin_init' );
+  //add_action( 'admin_init', 'publish_post_notification_plugin_admin_init' );
   add_action('publish_post',    'send_email_notification');  
   function load_submenu(){
   
-        add_submenu_page( 'options-general.php', 'Publish post notification options', 'Publish post email template', 'manage_options', 'manage_publish_post_notification_options', 'manage_publish_post_notification_options_func' ); 
+        $hook_suffix_email_notify=add_submenu_page( 'options-general.php', 'Publish post notification options', 'Publish post email template', 'manage_options', 'manage_publish_post_notification_options', 'manage_publish_post_notification_options_func' );
+        add_action( 'load-' . $hook_suffix_email_notify , 'publish_post_notification_plugin_admin_init' );
   }
   
   
@@ -150,14 +151,14 @@
           <tr valign="top" id="subject">
              <th scope="row" style="width:30%;text-align: right;">Subject *</th>
              <td>    
-                <input type="text" id="email_subject" name="email_subject" value="<?php echo $publish_post_notification_settings['subject'];?>"  class="valid" size="70">
+                <input type="text" id="email_subject" name="email_subject" value="<?php echo stripslashes($publish_post_notification_settings['subject']);?>"  class="valid" size="70">
                 <div style="clear: both;"></div><div></div>
               </td>
            </tr>
            <tr valign="top" id="subject">
              <th scope="row" style="width:30%;text-align: right">Email From Name*</th>
              <td>    
-                <input type="text" id="email_From_name" name="email_From_name"  value="<?php echo $publish_post_notification_settings['from_name'];?>" class="valid" size="70">
+                <input type="text" id="email_From_name" name="email_From_name"  value="<?php echo stripslashes($publish_post_notification_settings['from_name']);?>" class="valid" size="70">
                  <br/>(ex. admin)  
                 <div style="clear: both;"></div><div></div>
                
@@ -166,7 +167,7 @@
            <tr valign="top" id="subject">
              <th scope="row" style="width:30%;text-align: right">Email From *</th>
              <td>    
-                <input type="text" id="email_From" name="email_From" value="<?php echo $publish_post_notification_settings['from_email'];?>"  class="valid" size="70">
+                <input type="text" id="email_From" name="email_From" value="<?php echo stripslashes($publish_post_notification_settings['from_email']);?>"  class="valid" size="70">
                 <br/>(ex. admin@yoursite.com) 
                 <div style="clear: both;"></div><div></div>
           
@@ -214,9 +215,9 @@
           </div></div>
 
             <div class="postbox"> 
-                <h3 class="hndle"><span></span>Find Low Competition Keywords</h3> 
+                <h3 class="hndle"><span></span>best WordPress Hosting</h3> 
                 <div class="inside">
-                    <center><a href="http://42eb4jw9flkrluf45q50poct4o.hop.clickbank.net/?tid=FP76479Y" target="_top"><img src="http://nichefinder.bradcallen.com/affiliates/banners/320x250.jpg" width="250" height="250" border="1" ALT="Click to Visit"></a></center>
+                     <center><a href="http://secure.hostgator.com/~affiliat/cgi-bin/affiliates/clickthru.cgi?id=nik00726-hs-wp"><img src="http://tracking.hostgator.com/img/WordPress_Hosting/300x250-animated.gif" width="250" height="250" border="0"></a></center>
 
                     <div style="margin:10px 5px">
 
