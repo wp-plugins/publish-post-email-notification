@@ -76,11 +76,8 @@
           $emailBody=str_replace('[site_url_html]',$siteurlhtml,$emailBody); 
          
           $emailBody=stripslashes(htmlspecialchars_decode($emailBody));
-          
-          $mailheaders .= "MIME-Version: 1.0\n";
-          $mailheaders .= "X-Priority: 1\n";
+          $mailheaders='';
           $mailheaders .= "Content-Type: text/html; charset=\"UTF-8\"\n";
-          $mailheaders .= "Content-Transfer-Encoding: 7bit\n\n";
           $mailheaders .= "From: $from_name <$from_email>" . "\r\n";
           $message='<html><head></head><body>'.$emailBody.'</body></html>';
           $Rreturns=wp_mail($user_email, $subject, $message, $mailheaders);
